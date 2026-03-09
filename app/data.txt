@@ -1,0 +1,322 @@
+categories = [
+  {
+    "id": "84b596d8-6a35-410e-b375-b938e42e9dce",
+    "name": "Vegetables",
+    "description": "Fresh farm vegetables",
+    "image_url": "Category Images/vegtables.jpg",
+    "parent_id": null,
+    "is_active": true,
+    "created_at": "2026-02-23 18:38:49.362313"
+  },
+  {
+    "id": "03fcbd74-b66b-41ba-b0a4-ac2f00008ce7",
+    "name": "Fruits",
+    "description": "Imported & local fruits",
+    "image_url": "Category Images/fruits.jpg",
+    "parent_id": null,
+    "is_active": true,
+    "created_at": "2026-02-23 18:38:49.362313"
+  },
+  {
+    "id": "2e591f67-5bde-4bb1-a320-cf4a33d3aa18",
+    "name": "Frozen Food",
+    "description": "Frozen meat and seafood",
+    "image_url": "Category Images/frozen.jpg",
+    "parent_id": null,
+    "is_active": true,
+    "created_at": "2026-02-23 18:38:49.362313"
+  },
+  {
+    "id": "3e70605a-916f-486f-9475-188e53ff1534",
+    "name": "Beverages",
+    "description": "Drinks and juices",
+    "image_url": "Category Images/beverages.png",
+    "parent_id": null,
+    "is_active": true,
+    "created_at": "2026-02-23 18:38:49.362313"
+  },
+  {
+    "id": "61bead0e-2952-4887-b112-a7128fb10ef0",
+    "name": "Spices",
+    "description": "Cooking spices",
+    "image_url": "Category Images/spices.jpg",
+    "parent_id": null,
+    "is_active": true,
+    "created_at": "2026-02-23 18:38:49.362313"
+  }
+]
+
+products = [
+  {
+    "id": "9f2818a0-cdd2-4ae7-b287-fc7a6de04f5b",
+    "category_id": "84b596d8-6a35-410e-b375-b938e42e9dce",
+    "name": "Tomato",
+    "sku": "SKU-TOM-001",
+    "barcode": "1111111111",
+    "description": "Fresh red tomato",
+    "base_unit": "kg",
+    "weight": "1kg",
+    "is_halal": true,
+    "status": "active",
+    "created_at": "2026-02-23 18:40:27.301393"
+  },
+  {
+    "id": "35db6389-4c2c-474f-8f30-85e543ec3a40",
+    "category_id": "84b596d8-6a35-410e-b375-b938e42e9dce",
+    "name": "Chilli",
+    "sku": "SKU-CHI-001",
+    "barcode": "2222222222",
+    "description": "Spicy red chilli",
+    "base_unit": "kg",
+    "weight": "1kg",
+    "is_halal": true,
+    "status": "active",
+    "created_at": "2026-02-23 18:40:27.301393"
+  },
+  {
+    "id": "eaa2d791-a7c8-448b-b252-44646e10e3c7",
+    "category_id": "03fcbd74-b66b-41ba-b0a4-ac2f00008ce7",
+    "name": "Apple",
+    "sku": "SKU-APP-001",
+    "barcode": "3333333333",
+    "description": "Imported apple",
+    "base_unit": "kg",
+    "weight": "1kg",
+    "is_halal": true,
+    "status": "active",
+    "created_at": "2026-02-23 18:40:27.301393"
+  },
+  {
+    "id": "dfc2c9ba-19b0-4698-b28b-fee4ffd32ef7",
+    "category_id": "2e591f67-5bde-4bb1-a320-cf4a33d3aa18",
+    "name": "Frozen Chicken",
+    "sku": "SKU-FCH-001",
+    "barcode": "4444444444",
+    "description": "Frozen whole chicken",
+    "base_unit": "piece",
+    "weight": "2kg",
+    "is_halal": true,
+    "status": "active",
+    "created_at": "2026-02-23 18:40:27.301393"
+  },
+  {
+    "id": "a114dc65-ded6-4de0-8b57-1c80bebeba2f",
+    "category_id": "61bead0e-2952-4887-b112-a7128fb10ef0",
+    "name": "Black Pepper",
+    "sku": "SKU-BPE-001",
+    "barcode": "5555555555",
+    "description": "Ground black pepper",
+    "base_unit": "packet",
+    "weight": "500g",
+    "is_halal": true,
+    "status": "active",
+    "created_at": "2026-02-23 18:40:27.301393"
+  }
+]
+
+users = [
+  {
+    "id": "3023e423-2cc1-4162-8134-05ade9542a46",
+    "firebase_uid": "uid_admin_001",
+    "name": "Admin User",
+    "email": "admin@wholesale.com",
+    "phone": "60111111111",
+    "role": "admin",
+    "account_status": "approved",
+    "is_active": true,
+    "created_at": "2026-02-23 18:31:02.449488"
+  },
+  {
+    "id": "fc13f194-5273-4d15-b7f2-9710e8b14c03",
+    "firebase_uid": "uid_james_001",
+    "name": "James Tan",
+    "email": "james@gmail.com",
+    "phone": "60122222222",
+    "role": "wholesale_user",
+    "account_status": "approved",
+    "is_active": true,
+    "created_at": "2026-02-23 18:31:02.449488"
+  },
+  {
+    "id": "90ed2462-f99e-4430-979d-065964b6063f",
+    "firebase_uid": "uid_sarah_001",
+    "name": "Sarah Lee",
+    "email": "sarah@gmail.com",
+    "phone": "60133333333",
+    "role": "wholesale_user",
+    "account_status": "approved",
+    "is_active": true,
+    "created_at": "2026-02-23 18:31:02.449488"
+  },
+  {
+    "id": "954253e7-787d-4cef-b021-2e4f6960c5fc",
+    "firebase_uid": "uid_ahmad_001",
+    "name": "Ahmad Rahman",
+    "email": "ahmad@gmail.com",
+    "phone": "60144444444",
+    "role": "wholesale_user",
+    "account_status": "pending",
+    "is_active": true,
+    "created_at": "2026-02-23 18:31:02.449488"
+  },
+  {
+    "id": "da6419cf-eceb-47ab-af55-45749b76a828",
+    "firebase_uid": "uid_linda_001",
+    "name": "Linda Wong",
+    "email": "linda@gmail.com",
+    "phone": "60155555555",
+    "role": "wholesale_user",
+    "account_status": "approved",
+    "is_active": true,
+    "created_at": "2026-02-23 18:31:02.449488"
+  }
+]
+product_tier_pricing = [
+  {
+    "id": "660ce5f8-8c55-4cbf-ad8d-f7f946f53771",
+    "product_id": "9f2818a0-cdd2-4ae7-b287-fc7a6de04f5b",
+    "min_qty": 1,
+    "max_qty": 10,
+    "unit_price": "5.00"
+  },
+  {
+    "id": "8c0dfdd8-aefd-4bdb-a5fa-b03b0d24341d",
+    "product_id": "9f2818a0-cdd2-4ae7-b287-fc7a6de04f5b",
+    "min_qty": 11,
+    "max_qty": null,
+    "unit_price": "4.50"
+  },
+  {
+    "id": "3166fa8a-6331-4852-aa4e-cf76b7adef86",
+    "product_id": "35db6389-4c2c-474f-8f30-85e543ec3a40",
+    "min_qty": 1,
+    "max_qty": null,
+    "unit_price": "6.00"
+  },
+  {
+    "id": "23a23a88-b0ea-4ed0-ac21-7f2193a45ba8",
+    "product_id": "eaa2d791-a7c8-448b-b252-44646e10e3c7",
+    "min_qty": 1,
+    "max_qty": null,
+    "unit_price": "8.00"
+  },
+  {
+    "id": "c60814b6-9a26-44f5-9b04-7bf962d0e678",
+    "product_id": "dfc2c9ba-19b0-4698-b28b-fee4ffd32ef7",
+    "min_qty": 1,
+    "max_qty": null,
+    "unit_price": "25.00"
+  }
+]
+
+poduct_images = [
+  {
+    "id": "a75fb211-2bf4-4edc-9151-87a5d149228f",
+    "product_id": "9f2818a0-cdd2-4ae7-b287-fc7a6de04f5b",
+    "image_url": "tomato.jpg",
+    "sort_order": 0
+  },
+  {
+    "id": "cb7c4d19-302c-4ef4-beb8-899dd6972b21",
+    "product_id": "35db6389-4c2c-474f-8f30-85e543ec3a40",
+    "image_url": "chilli.jpg",
+    "sort_order": 0
+  },
+  {
+    "id": "eed14f98-abcb-495d-aac9-acf3e928c1f7",
+    "product_id": "eaa2d791-a7c8-448b-b252-44646e10e3c7",
+    "image_url": "apple.png",
+    "sort_order": 0
+  },
+  {
+    "id": "ec749249-05eb-4755-b4b5-eaa938c3efa9",
+    "product_id": "dfc2c9ba-19b0-4698-b28b-fee4ffd32ef7",
+    "image_url": "chicken.jpeg",
+    "sort_order": 0
+  },
+  {
+    "id": "9532fd43-1866-43fc-8e12-1f917954a2c3",
+    "product_id": "a114dc65-ded6-4de0-8b57-1c80bebeba2f",
+    "image_url": "black pepper.jpg",
+    "sort_order": 0
+  }
+]
+
+orders = [
+  {
+    "id": "dac84cd3-24c0-490d-aebc-cce8bac32477",
+    "user_id": "fc13f194-5273-4d15-b7f2-9710e8b14c03",
+    "order_number": "ORD-1001",
+    "total_amount": "95.00",
+    "shipping_method": "truck",
+    "delivery_date": "2026-02-25",
+    "order_source": "app",
+    "payment_status": "pending",
+    "order_status": "confirmed",
+    "created_at": "2026-02-23 18:48:33.715901"
+  }
+]
+
+order_items = [
+  {
+    "id": "b0d153eb-cb1a-4227-9dad-856d6e2e94c3",
+    "order_id": "dac84cd3-24c0-490d-aebc-cce8bac32477",
+    "product_id": "9f2818a0-cdd2-4ae7-b287-fc7a6de04f5b",
+    "sku": "SKU-TOM-001",
+    "barcode": "1111111111",
+    "quantity": 10,
+    "unit_price": "5.00",
+    "subtotal": "50.00"
+  },
+  {
+    "id": "761d975c-2a59-4997-82f1-ece5366db0ad",
+    "order_id": "dac84cd3-24c0-490d-aebc-cce8bac32477",
+    "product_id": "35db6389-4c2c-474f-8f30-85e543ec3a40",
+    "sku": "SKU-CHI-001",
+    "barcode": "2222222222",
+    "quantity": 5,
+    "unit_price": "9.00",
+    "subtotal": "45.00"
+  }
+]
+
+inventory = [
+  {
+    "product_id": "35db6389-4c2c-474f-8f30-85e543ec3a40",
+    "stock_quantity": 150,
+    "restock_date": null
+  },
+  {
+    "product_id": "eaa2d791-a7c8-448b-b252-44646e10e3c7",
+    "stock_quantity": 300,
+    "restock_date": null
+  },
+  {
+    "product_id": "dfc2c9ba-19b0-4698-b28b-fee4ffd32ef7",
+    "stock_quantity": 100,
+    "restock_date": null
+  },
+  {
+    "product_id": "a114dc65-ded6-4de0-8b57-1c80bebeba2f",
+    "stock_quantity": 250,
+    "restock_date": null
+  },
+  {
+    "product_id": "9f2818a0-cdd2-4ae7-b287-fc7a6de04f5b",
+    "stock_quantity": 200,
+    "restock_date": null
+  }
+]
+carts = [
+  {
+    "id": "b5fc3ee0-5d8d-4c3c-96ac-00c41cff409f",
+    "user_id": "fc13f194-5273-4d15-b7f2-9710e8b14c03",
+    "updated_at": "2026-02-23 18:48:21.216771"
+  },
+  {
+    "id": "e0603beb-3085-4976-932a-2a9483ecedb8",
+    "user_id": "90ed2462-f99e-4430-979d-065964b6063f",
+    "updated_at": "2026-02-23 18:48:21.216771"
+  }
+]
+

@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+python-dotenv
+langgraph
+langchain-google-genai
+langchain-core
+langchain
+sse-starlette
+langchain-cohere
+cohere
+python-jose[cryptography]
+python-multipart
+stripe
+requests
